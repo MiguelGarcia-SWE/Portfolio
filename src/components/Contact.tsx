@@ -32,16 +32,23 @@ function Contact() {
         message: message
       };
 
-      emailjs.send('service_yqezb6b', 'template_72nqdoi', templateParams, 'SO8BOvcR5GJ4Z8hs1').then(
+      emailjs.send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID || '',
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID || '',
+        templateParams,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY || ''
+      ).then(
         (response) => {
-          console.log('SUCCESS!', response.status, response.text);
           // Clear form after successful submission
           setName('');
           setEmail('');
           setMessage('');
         },
         (error) => {
-          console.log('FAILED...', error);
+          // You might want to show an error message to the user here
+          setName('');
+          setEmail('');
+          setMessage('');
         },
       );
     }
