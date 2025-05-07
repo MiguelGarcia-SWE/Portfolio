@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/github-portfolio/static/css/main.a6a0af33.css",
+    "main.js": "/github-portfolio/static/js/main.1b25b35a.js",
+    "static/js/453.b05d8aa5.chunk.js": "/github-portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/rube-goldberg-header-2.png.png": "/github-portfolio/static/media/rube-goldberg-header-2.png.aba93e0c2a5ac9eafeea.png",
+    "static/media/bg-light.png": "/github-portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/github-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/QA Tester.png": "/github-portfolio/static/media/QA Tester.97d006a183ecd9aa1dd2.png",
+    "static/media/CHatbot.png": "/github-portfolio/static/media/CHatbot.08c6b44c451eb02d3ebe.png",
+    "static/media/Ray.jpg": "/github-portfolio/static/media/Ray.5fb696af233f4222b310.jpg",
+    "static/media/PCB.jpeg": "/github-portfolio/static/media/PCB.7505164d29dc91e081bf.jpeg",
+    "static/media/EpicGamesMachine.png": "/github-portfolio/static/media/EpicGamesMachine.fef50b1a74d0e61e6d00.png",
+    "static/media/profile.jpg": "/github-portfolio/static/media/profile.e396dda28a6dd8d38418.jpg",
+    "static/media/Object Detect.jpeg": "/github-portfolio/static/media/Object Detect.9e4a2cfd97d56c1ea5ac.jpeg",
+    "index.html": "/github-portfolio/index.html",
+    "main.a6a0af33.css.map": "/github-portfolio/static/css/main.a6a0af33.css.map",
+    "main.1b25b35a.js.map": "/github-portfolio/static/js/main.1b25b35a.js.map",
+    "453.b05d8aa5.chunk.js.map": "/github-portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6a0af33.css",
+    "static/js/main.1b25b35a.js"
+  ]
+}
