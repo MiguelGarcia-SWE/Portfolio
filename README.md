@@ -1,3 +1,5 @@
+# github-portfolio
+
 This simple portfolio template is designed by Yuji Sato Jr to showcase your past projects, career history, skill sets, and more.
 
 View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
