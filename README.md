@@ -1,6 +1,5 @@
 # github-portfolio  
-[https://github.com/MiguelGarcia-SWE/Portfolio](https://github.com/MiguelGarcia-SWE/Portfolio)
-
+[https://miguelgarcia-swe.github.io/Portfolio/](https://miguelgarcia-swe.github.io/Portfolio/)
 This simple portfolio template is designed by Yuji Sato Jr to showcase your past projects, career history, skill sets, and more.
 
 View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
