@@ -15,7 +15,7 @@ function Main() {
             <img src={profileImage} alt="Miguel Garcia" />
           </div>
           <div className="resume-bubble-wrapper">
-            <a href="/Resume .pdf" download="Miguel_Garcia_Resume.pdf" className="resume-bubble">
+            <a href="/Resume.pdf" download="Miguel_Garcia_Resume_25.pdf" className="resume-bubble">
               <DownloadIcon style={{ verticalAlign: 'middle', marginRight: 6 }} /> Resume
             </a>
           </div>
