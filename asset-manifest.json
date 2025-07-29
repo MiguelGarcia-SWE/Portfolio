@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.593e906d.css",
-    "main.js": "/Portfolio/static/js/main.6fbb262d.js",
+    "main.js": "/Portfolio/static/js/main.bdf973d6.js",
     "static/js/453.b05d8aa5.chunk.js": "/Portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/rube-goldberg-header-2.png.png": "/Portfolio/static/media/rube-goldberg-header-2.png.aba93e0c2a5ac9eafeea.png",
     "static/media/bg-light.png": "/Portfolio/static/media/bg-light.bac0efb485244a522981.png",
@@ -15,11 +15,11 @@
     "static/media/Object Detect.jpeg": "/Portfolio/static/media/Object Detect.9e4a2cfd97d56c1ea5ac.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.593e906d.css.map": "/Portfolio/static/css/main.593e906d.css.map",
-    "main.6fbb262d.js.map": "/Portfolio/static/js/main.6fbb262d.js.map",
+    "main.bdf973d6.js.map": "/Portfolio/static/js/main.bdf973d6.js.map",
     "453.b05d8aa5.chunk.js.map": "/Portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.593e906d.css",
-    "static/js/main.6fbb262d.js"
+    "static/js/main.bdf973d6.js"
   ]
 }
