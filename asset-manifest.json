@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.593e906d.css",
-    "main.js": "/Portfolio/static/js/main.bdf973d6.js",
+    "main.js": "/Portfolio/static/js/main.3b04b20b.js",
     "static/js/453.b05d8aa5.chunk.js": "/Portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/rube-goldberg-header-2.png.png": "/Portfolio/static/media/rube-goldberg-header-2.png.aba93e0c2a5ac9eafeea.png",
+    "static/media/PC.png": "/Portfolio/static/media/PC.b74844b726eaa3bbf38d.png",
     "static/media/bg-light.png": "/Portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/QA Tester.png": "/Portfolio/static/media/QA Tester.97d006a183ecd9aa1dd2.png",
@@ -15,11 +16,11 @@
     "static/media/Object Detect.jpeg": "/Portfolio/static/media/Object Detect.9e4a2cfd97d56c1ea5ac.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.593e906d.css.map": "/Portfolio/static/css/main.593e906d.css.map",
-    "main.bdf973d6.js.map": "/Portfolio/static/js/main.bdf973d6.js.map",
+    "main.3b04b20b.js.map": "/Portfolio/static/js/main.3b04b20b.js.map",
     "453.b05d8aa5.chunk.js.map": "/Portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.593e906d.css",
-    "static/js/main.bdf973d6.js"
+    "static/js/main.3b04b20b.js"
   ]
 }
