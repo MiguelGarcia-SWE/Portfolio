@@ -4,6 +4,7 @@ import obstacleImg from '../assets/images/Object Detect.jpeg';
 import shieldImg from '../assets/images/PCB.jpeg';
 import chatbotImg from '../assets/images/CHatbot.png';
 import rubeGoldbergImg from '../assets/images/rube-goldberg-header-2.png.png';
+import pcBuilderImg from '../assets/images/PC.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -14,7 +15,8 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/MiguelGarcia-SWE/RayTracing" target="_blank" rel="noreferrer"><img src={raytracingImg} className="zoom" alt="RayTracing Screenshot" width="100%"/></a>
                 <a href="https://github.com/MiguelGarcia-SWE/RayTracing" target="_blank" rel="noreferrer"><h2>RayTracing Project</h2></a>
-                <p>Developed a C++ path tracer for realistic lighting and graphics programming.</p>
+                // ... existing code ...
+                <p>Building an exciting C++ path tracer from scratch to create stunning realistic lighting and explore the world of graphics programming!✨</p>
             </div>
             <div className="project">
                 <a href="https://github.com/MiguelGarcia-SWE/Autonomous-Obstacle-Recognition" target="_blank" rel="noreferrer"><img src={obstacleImg} className="zoom" alt="Obstacle Simulation Screenshot" width="100%"/></a>
@@ -35,6 +37,11 @@ function Project() {
                 <a href="#" target="_blank" rel="noreferrer"><img src={rubeGoldbergImg} className="zoom" alt="Rube Goldberg Machine Screenshot" width="100%"/></a>
                 <a href="#" target="_blank" rel="noreferrer"><h2>My Rube Goldberg Machine</h2></a>
                 <p>Currently working on this project during my externship, it is my unique take and rendition of the renowned Rube Goldberg machine in Unreal Engine 5.</p>
+            </div>
+            <div className="project">
+                <a href="#" target="_blank" rel="noreferrer"><img src={pcBuilderImg} className="zoom" alt="PC Builder Project" width="100%"/></a>
+                <a href="#" target="_blank" rel="noreferrer"><h2>PC Builder Project</h2></a>
+                <p>Custom gaming PC build featuring 32GB 3200MHz RAM, Ryzen 5600X processor, and a RTX 3070 FE graphics card with a 18-hour Best Buy camping session during peak COVID to accompany the purchase :) (worth it). Built for optimal performance and reliability.</p>
             </div>
         </div>
     </div>

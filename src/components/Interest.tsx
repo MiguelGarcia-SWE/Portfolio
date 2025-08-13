@@ -2,11 +2,29 @@ import React from "react";
 import epicGamesImg from '../assets/images/EpicGamesMachine.png';
 import qaTesterImg from '../assets/images/QA Tester.png';
 import '../assets/styles/Interest.scss';
+import Chip from '@mui/material/Chip';
+
+const careerInterests = [
+    "AI & Machine Learning",
+    "Graphics Programming & GPU Computing",
+    "Computer Vision & Real-time Systems",
+    "3D Game Development & Simulation",
+];
 
 function Interest() {
     return(
     <div className="projects-container" id="interest">
-        <h1>Interest</h1>
+        <h1>Interests & Career Goals</h1>
+        
+        <div className="interests-section" style={{ marginBottom: '40px' }}>
+            <h2>Career Interests</h2>
+            <div className="flex-chips">
+                {careerInterests.map((interest, index) => (
+                    <Chip key={index} className='chip' label={interest} />
+                ))}
+            </div>
+        </div>
+
         <div className="projects-grid">
             <div className="project">
                 <img src={epicGamesImg} className="zoom" alt="Epic Games Rube Goldberg" width="100%"/>

@@ -29,7 +29,19 @@ const relevantCourses = [
     },
     {
         name: "Linear Algebra",
-        url: "https://docs.google.com/document/d/1E1BcQiALP8xn-bghOdtPs0lpodhhQdf7xNWw-xqfU_s/edit?tab=t.0"
+        url: "https://digitalcommons.njit.edu/math-syllabi/311/"
+    },
+    {
+        name: "Numerical Linear Algebra",
+        url: "https://math.njit.edu/sites/math/files/Math%20707%20SP22_0.pdf"
+    },
+    {
+        name: "Computer Graphics for Visual Effects",
+        url: "https://digitalcommons.njit.edu/cgi/viewcontent.cgi?article=1423&context=info-syllabi"
+    },
+    {
+        name: "Calculus III B",
+        url: "https://archives.njit.edu/vhlib/syllabi/math/math-2024-01-01-Spring-2024/MATH-213-2024-Spring.pdf"
     },
     {
         name: "Discrete Analysis",
@@ -44,24 +56,38 @@ const relevantCourses = [
 const programmingLanguages = [
     "Python",
     "C/C++",
+    "MATLAB",
+    "JavaScript",
     "HTML/CSS",
-    "JavaScript"
+    "Bash"
 ];
 
 const frameworksAndTools = [
-    "React",
-    "Git",
-    "MongoDB",
-    "JetPack- Linux (Ubuntu)",
-    "Docker",
-    "API"
+    "React.js",
+    "Node.js",
+    "PyTorch",
+    "OpenCV",
+    "NumPy"
 ];
 
-const aiAndMl = [
-    "Real-time classification",
-    "Real-time object detection (DetectNet, TorchVision)",
+const toolsAndPlatforms = [
+    "Git",
+    "Docker",
+    "Jira",
+    "Ubuntu",
+    "Postman",
+    "Salesforce",
+    "Unreal Engine 5",
+    "Blueprint",
+    "Jetson Nano",
+    "MongoDB"
+];
+
+const systemsAndConcepts = [
+    "RESTful APIs",
     "Computer Vision",
-    "Machine Learning"
+    "Object Detection (DetectNet)",
+    "NLP"
 ];
 
 const affiliations = [
@@ -83,7 +109,7 @@ function Expertise() {
                     <FontAwesomeIcon icon={faGraduationCap} size="3x"/>
                     <h3>Bachelor of Science in Computer Engineering</h3>
                     <p>New Jersey Institute of Technology (NJIT)</p>
-                    <p>Minors: Drones & Robotics</p>
+                    <p>Minor: Computational Mathematics</p>
                     <div className="flex-chips">
                         <span className="chip-title">Relevant Coursework:</span>
                         {relevantCourses.map((course, index) => (
@@ -112,21 +138,27 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faCode} size="3x"/>
-                    <h3>Programming Languages</h3>
+                    <h3>Languages & Libraries</h3>
                     <div className="flex-chips">
                         {programmingLanguages.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
-                    <h3>Frameworks & Development Tools</h3>
+                    <h3>Frameworks & Libraries</h3>
                     <div className="flex-chips">
                         {frameworksAndTools.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
-                    <h3>AI & Machine Learning</h3>
+                    <h3>Tools & Platforms</h3>
                     <div className="flex-chips">
-                        {aiAndMl.map((label, index) => (
+                        {toolsAndPlatforms.map((label, index) => (
+                            <Chip key={index} className='chip' label={label} />
+                        ))}
+                    </div>
+                    <h3>Systems & Concepts</h3>
+                    <div className="flex-chips">
+                        {systemsAndConcepts.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>

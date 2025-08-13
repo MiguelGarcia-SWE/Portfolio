@@ -26,7 +26,7 @@ function Main() {
             <a href="https://linkedin.com/in/miguelanggarcia/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Miguel Garcia</h1>
-          <p className="title">Computer Engineering @ NJIT '26</p>
+          <p className="title">Computer Engineering @ NJIT '27</p>
           <div className="summary">
             <p className="bio">Passionate about software development and technology innovation. Currently pursuing my degree in Computer Engineering at NJIT while gaining hands-on experience in full-stack development. My journey is fueled by curiosity and wanting to learn what's happening under the hood, breaking it apart, and putting it back together even better than before!</p>
           </div>
