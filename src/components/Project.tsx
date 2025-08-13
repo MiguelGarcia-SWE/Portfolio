@@ -15,7 +15,6 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/MiguelGarcia-SWE/RayTracing" target="_blank" rel="noreferrer"><img src={raytracingImg} className="zoom" alt="RayTracing Screenshot" width="100%"/></a>
                 <a href="https://github.com/MiguelGarcia-SWE/RayTracing" target="_blank" rel="noreferrer"><h2>RayTracing Project</h2></a>
-                // ... existing code ...
                 <p>Building an exciting C++ path tracer from scratch to create stunning realistic lighting and explore the world of graphics programming!✨</p>
             </div>
             <div className="project">
