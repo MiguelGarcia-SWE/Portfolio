@@ -20,10 +20,6 @@ const relevantCourses = [
         url: "https://digitalcommons.njit.edu/cgi/viewcontent.cgi?article=1104&context=ece-syllabi"
     },
     {
-        name: "Calculus 3",
-        url: "https://digitalcommons.njit.edu/cgi/viewcontent.cgi?article=1285&context=math-syllabi"
-    },
-    {
         name: "Differential Equations",
         url: "https://docs.google.com/document/d/1o82ikKSCHH3tbaD2hnhsRvigDONmF5gVnA1xCmS3ESo/edit?tab=t.0"
     },
@@ -40,7 +36,7 @@ const relevantCourses = [
         url: "https://digitalcommons.njit.edu/cgi/viewcontent.cgi?article=1423&context=info-syllabi"
     },
     {
-        name: "Calculus III B",
+        name: "Calculus III (Multivariable Calculus)",
         url: "https://archives.njit.edu/vhlib/syllabi/math/math-2024-01-01-Spring-2024/MATH-213-2024-Spring.pdf"
     },
     {
