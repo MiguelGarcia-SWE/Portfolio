@@ -9,7 +9,6 @@ import {
   Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
-import GamingHighlights from "./components/GamingHighlights";
 import Interest from "./components/Interest";
 import './index.scss';
 

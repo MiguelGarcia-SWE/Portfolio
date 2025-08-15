@@ -4,6 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import DownloadIcon from '@mui/icons-material/Download';
 import '../assets/styles/Main.scss';
 import profileImage from '../assets/images/profile.jpg';
+import resumeFile from '../assets/images/Resume.pdf';
 
 function Main() {
 
@@ -15,7 +16,7 @@ function Main() {
             <img src={profileImage} alt="Miguel Garcia" />
           </div>
           <div className="resume-bubble-wrapper">
-            <a href="Resume.pdf" download="Miguel_Garcia_Resume_25.pdf" className="resume-bubble">
+            <a href={resumeFile} download="Miguel_Garcia_Resume_25.pdf" className="resume-bubble">
               <DownloadIcon style={{ verticalAlign: 'middle', marginRight: 6 }} /> Resume
             </a>
           </div>
